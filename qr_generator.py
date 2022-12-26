@@ -1,6 +1,10 @@
 import qrcode
+import csv_parser
 # пример данных
-data = "https://pythonist.ru/"
+data = "csv_parser.reader_row"
+data = csv_parser.reader_row
+print(f"QR БО1/БР = {data}")
+
 # имя конечного файла
 filename = "qr.png"
 # генерируем qr-код
